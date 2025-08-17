@@ -83,10 +83,7 @@ wandb>=0.15.0
 tensorboard>=2.13.0
 
 # Model Serving & Deployment
-fastapi>=0.100.0
-uvicorn>=0.23.0
 streamlit>=1.25.0
-gradio>=3.40.0
 
 # Database Connectivity
 sqlalchemy>=2.0.0
@@ -95,11 +92,6 @@ pymongo>=4.4.0
 # Parallel Computing
 joblib>=1.3.0
 multiprocessing-logging>=0.3.4
-
-
-# Time Series Analysis
-statsmodels>=0.14.0
-prophet>=1.1.4
 
 
 # Version Control Integration
