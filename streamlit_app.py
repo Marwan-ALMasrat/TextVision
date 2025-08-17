@@ -12,7 +12,7 @@ import io
 import base64
 
 # Import custom utilities
-from utils.text_classifier import TextClassifier
+from text_classifier import TextClassifier
 from utils.summarizer import TextSummarizer
 from utils.ner_extractor import NERExtractor
 
