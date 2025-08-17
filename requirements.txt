@@ -126,25 +126,3 @@ datetime>=5.2
 pathlib2>=2.3.7
 collections-extended>=2.0.2
 
-# =============================================================================
-# Installation Notes:
-# 
-# 1. For CUDA Support (Recommended for RTX 4070 Ti Super):
-#    pip install tensorflow[and-cuda]
-#    
-# 2. For CPU-only systems:
-#    Replace tensorflow with tensorflow-cpu
-#    
-# 3. For specific CUDA versions:
-#    - CUDA 11.x: cupy-cuda11x
-#    - CUDA 12.x: cupy-cuda12x
-#    
-# 4. Optional heavy packages (comment out if not needed):
-#    - transformers (large download)
-#    - cupy-cuda12x (CUDA dependency)
-#    - spacy (requires model download)
-#    
-# 5. Post-installation commands:
-#    python -m spacy download en_core_web_sm
-#    python -m nltk.downloader punkt stopwords
-# =============================================================================
